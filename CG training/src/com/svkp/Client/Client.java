@@ -5,7 +5,6 @@ import com.svkp.bankAppilication.GsBankFactory;
 import com.svkp.bankAppilication.GsCurrentAcc;
 
 public class Client {
-
 	
 	public static void main(String[] args) {
 		GsBankFactory gsbankfac= new GsBankFactory(0, null, 0, false);
@@ -18,5 +17,4 @@ public class Client {
 		GsCurrentAcc gscurrent = new GsCurrentAcc(234,"ram",56478,true);
 		gscurrent.diposit(123);
 	}
-
 }
